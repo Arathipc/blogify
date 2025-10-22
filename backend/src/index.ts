@@ -3,10 +3,10 @@ import dotenv from "dotenv";
 import cors from "cors";
 import morgan from "morgan";
 import path from "path";
-import connectDB from "./src/config/db";
-import userRoutes from "./src/routes/userRout";
-import postRoutes from "./src/routes/postRout";
-import authRoutes from "./src/routes/authRout";
+import connectDB from "./config/db";
+import userRoutes from "./routes/userRout";
+import postRoutes from "./routes/postRout";
+import authRoutes from "./routes/authRout";
 
 dotenv.config();
 connectDB();
